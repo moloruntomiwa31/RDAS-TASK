@@ -27,13 +27,13 @@ const submitForm = () => {
   <h1 class="text-3xl font-bold text-center mb-8">Form Details</h1>
   <FormComponent @submit="submitForm" class="space-y-8">
     <AppInput
-      v-model="firstName"
+      v-model.trim="firstName"
       labelText="First Name"
       placeholder="Enter your first name"
       inputType="text"
     />
     <AppInput
-      v-model="lastName"
+      v-model.trim="lastName"
       labelText="Last Name"
       placeholder="Enter your last name"
       inputType="text"

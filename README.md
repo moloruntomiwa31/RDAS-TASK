@@ -1,9 +1,9 @@
 # RDAS TASK
 This is a task for my technical assement test on Vue3 for RDAS Nigeria.
-I was to create a form that takes input a then add the user's data to a table on the same page.
+I was to create a form that takes input from the user then add the user's data to a table on the same page.
 Also, i was to build display pages for students and items that share a unique component for displaying the table.
 
-During the course of building, I worked with Vue Router for Routing, Pinia for State Management. I made use of Vue 3 composition api and used correct implementation of props, emit events and reactivity, My components were also will structure with this defined principles. 
+During the course of building, I worked with Vue Router for Routing, Pinia for State Management. I made use of Vue 3 composition api and used correct implementation of props, emit events and reactivity. My components were also will structured with this defined principles. I also used TailwindCSS as my preferred CSS Framework with plain css.
 
 This template should help get you started developing with Vue 3 in Vite.
 

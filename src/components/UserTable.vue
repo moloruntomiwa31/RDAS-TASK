@@ -6,25 +6,25 @@ const { users } = storeToRefs(useUserStore());
 
 <template>
   <Transition name="table">
-    <table
-      class="border-collapse w-full mt-8"
-    >
-      <tr>
-        <th>Id</th>
-        <th>First Name</th>
-        <th>Last Name</th>
-      </tr>
-      <tr v-for="(user, index) in users" :key="user">
-        <td>{{ index + 1 }}</td>
-        <td>{{ user.firstName }}</td>
-        <td>{{ user.lastName }}</td>
-      </tr>
-    </table>
+    <div>
+      <h1 class="text-3xl font-bold text-center my-4">Users</h1>
+      <table class="border-collapse w-full mt-8">
+        <tr>
+          <th>Id</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+        </tr>
+        <tr v-for="(user, index) in users" :key="user">
+          <td>{{ index + 1 }}</td>
+          <td>{{ user.firstName }}</td>
+          <td>{{ user.lastName }}</td>
+        </tr>
+      </table>
+    </div>
   </Transition>
 </template>
 
 <style scoped>
-
 .table-enter-from,
 .table-leave-to {
   opacity: 0;
