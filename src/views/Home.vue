@@ -14,7 +14,9 @@ const handleFormSubmit = (userData) => {
 </script>
 
 <template>
-  <main class="flex flex-col justify-center md:flex-row md:justify-between items-center w-full min-h-screen p-12">
+  <main
+    class="flex flex-col justify-center items-center w-full min-h-screen p-12"
+  >
     <!-- FORM DETAILS -->
     <section>
       <UserForm @submitForm="handleFormSubmit" />
